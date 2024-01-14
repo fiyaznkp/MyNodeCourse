@@ -1,3 +1,7 @@
+// creating server using http
+
+
+
 const http = require("http")
 
 const port =5173
@@ -7,4 +11,6 @@ const server = http.createServer((req,res)=>{
 })
 
 server.listen(port)
+
+
 
